@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-07 22:54:21
- * @LastEditTime: 2021-02-08 00:52:34
+ * @LastEditTime: 2021-02-08 01:46:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \MakeMelon\src\extraSettings.js
@@ -14,7 +14,7 @@
 let extraScore = 1;
 
 // 无敌模式：true 改为 false
-let wuDi = false;
+let wuDi = true;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
@@ -34,10 +34,10 @@ let setFruits = {
 }
 
 // 让水果更 Q 弹：false 改为大于 0 小于 1 的任意小数（推荐 0.9）
-let fruitQTan = false;
+let fruitQTan = 0.3;
 
 // 让水果下落缓慢：false 改为大于 0 的任意数，值越大阻力越大，下落越慢（推荐 5）
-let fruitSlowDown = 3;
+let fruitSlowDown = 2;
 
 // 点击右上方图标更换水果：false 改为 true 即可，暂未支持
 let clickChangeFruit = false;
